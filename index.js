@@ -2,7 +2,7 @@ const connecttomongo=require('./db');
 const express=require('express');
 const cors=require('cors');
 const app=express();
-const port=3000;
+const port=5000;
 connecttomongo();
 app.use(express.json());
 app.use(cors());
